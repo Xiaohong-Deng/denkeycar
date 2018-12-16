@@ -25,9 +25,10 @@ No rules! But if you want to have something to hold on to, the following builds 
 
 Donkey is a design built to run around tracks bounded by painted lane marks.
 
-* Implement lane changing and obstacle avoiding behaviors.
+* Implement lane changing and obstacle avoiding behaviors. (**requires a dual-lane track that I have no access to**)
 * Mount more sensors, hack the donkey framework to support custom sensors.
 * Use those sensors to do visual SLAM (RPLidar doesn't work on painted lane)
+* Implement RNN to mitigate driving signal latency. Don't feel the urge to implement it at the moment though.
 
 #### Related Work
 
