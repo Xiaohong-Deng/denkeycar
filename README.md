@@ -1,4 +1,5 @@
 [image1]: ./img/donkey.jpg "Donkey"
+[image2]: ./img/hybridastar.png "RACECAR"
 
 # Denkey Car
 
@@ -28,21 +29,27 @@ Donkey is a design built to run around tracks bounded by painted lane marks.
 * Mount more sensors, hack the donkey framework to support custom sensors.
 * Use those sensors to do visual SLAM (RPLidar doesn't work on painted lane)
 
-### Related Work
+#### Related Work
 
-* [cycloid][5] is a platform that uses wheel encoders and IMU to visual SLAM.
+* [cycloid][5] is a platform that uses wheel encoders and IMU to do visual SLAM.
 * [Ghost][6] is another project that employs the IMU + encoders combination to do SLAM.
 
 ### MIT / HyphaRos RACECAR
 
 This is likely to be my second car to implement indoor navigation from point A to point B while avoiding 3D obstacles.
 
-Because installing encoders to RC cars can be tricky. An open source ESC named VESC can provide odometry data out of box and make sensorless brushless motor responsive under low speed (good for training). This fact makes a second car inevitable. Besides, RPLidar and depth camera require more powerful SBC than Raspberry Pi.
+Because installing encoders to RC cars can be tricky. An open source ESC named VESC can provide odometry data out of box and make sensorless brushless motor responsive under low speed (good for training). This fact makes a second car inevitable. Besides, RPLidar and depth camera require more powerful SBCs than Raspberry Pi.
 
-Another benefit of this car is it can be tested in small and unstructured apartment where Donkey requires a large enough track to test various behaviors.
+Another benefit of this car is it can be tested in small and unstructured apartment where Donkey requires a large enough track (**a luxury I don't have**) to test various behaviors.
 
-* Use RPLidar or depth camera to do build a map (SLAM)
+* Use RPLidar or depth camera to build a map (SLAM)
 * Use the map to navigate (Hybrid A* possibly)
+
+#### Related Work
+
+This is the final product I am intended to reproduce.
+
+[![alt text][image2]][7]
 
 ![alt text][image1]
 
@@ -54,3 +61,4 @@ Another benefit of this car is it can be tested in small and unstructured apartm
 [4]: https://autorally.github.io/
 [5]: https://github.com/a1k0n/cycloid
 [6]: https://www.stevendaniluk.com/ghost/
+[7]: https://www.youtube.com/watch?v=h8Mnkqyv338
