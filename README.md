@@ -5,6 +5,8 @@
 
 Denkey Car is a Self-Driving RC car project that potentially consists of multiple RC cars backed by different sets of software to mimic distinct real world scenarios like highway, parking lot and off-road driving.
 
+![alt text][image1]
+
 ### Current State
 
 A standard Donkey build. Run the default inference model on the Pi. No extra juice added yet.
@@ -51,8 +53,6 @@ Another benefit of this car is it can be tested in small and unstructured apartm
 This is the final product I am intended to reproduce.
 
 [![alt text][image2]][7]
-
-![alt text][image1]
 
 ---
 [0]: http://www.donkeycar.com/
