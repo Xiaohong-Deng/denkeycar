@@ -6,7 +6,7 @@ The following instructions are based on [RetroPie][0] and [ds4drv][1].
 
 ### Install `ds4drv`.
 
-Running on `donkey,img` you can directly `sudo /home/pi/env/bin/pip install ds4drv`
+After you ssh into your Donkey, you can directly `sudo /home/pi/env/bin/pip install ds4drv`
 
 ### Grant permission to `ds4drv`.
 
